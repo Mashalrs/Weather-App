@@ -1,0 +1,101 @@
+/* src/App.css */
+
+/* Apply global styles to the body element */
+body {
+  margin: 0; /* Remove default margin */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; /* Use a system font stack for better performance and consistency across devices */
+  -webkit-font-smoothing: antialiased; /* Improve font rendering on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Improve font rendering on macOS Firefox */
+  background-color: #282c34; /* Set the background color */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set the height to the full viewport height */
+}
+
+/* Style for the main App container */
+.App {
+  text-align: center; /* Center text inside the App component */
+}
+
+/* Style for the header inside the App component */
+.App-header {
+  background-color: #282c34; /* Set the background color to match the body */
+  min-height: 100vh; /* Ensure the header takes at least the full viewport height */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  font-size: calc(8.5px + 2vmin); /* Responsive font size based on viewport size */
+  color: rgb(0, 0, 0); /* Set text color */
+}
+
+/* Style for the Weather component container */
+.Weather {
+  background-color: rgb(253, 251, 251); /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 400px; /* Maximum width of the container */
+  margin: 20px auto; /* Center the container with top and bottom margin */
+}
+
+/* Style for the heading inside the Weather component */
+.Weather h2 {
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Style for the input field inside the Weather component */
+.Weather input {
+  padding: 10px; /* Padding inside the input */
+  margin-bottom: 10px; /* Space below the input */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 4px; /* Rounded corners */
+  width: calc(100% - 22px); /* Full width minus padding and border */
+}
+
+/* Style for buttons inside the Weather component */
+.Weather button {
+  padding: 5px 10px; /* Padding inside the button */
+  background-color: #fc31a7; /* Pink background color */
+  border: none; /* Remove default border */
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  color: white; /* White text color */
+  font-size: 0.7em; /* Slightly smaller text size */
+  margin-top: 10px; /* Space above the button */
+}
+
+/* Hover state for buttons inside the Weather component */
+.Weather button:hover {
+  background-color: #f957a2; /* Slightly darker pink on hover */
+}
+
+/* Style for images inside the Weather component */
+.Weather img {
+  width: 64px; /* Fixed width */
+  height: 64px; /* Fixed height */
+}
+
+/* Style for paragraphs inside the Weather component */
+.Weather p {
+  margin: 10px 0; /* Vertical margin */
+  font-size: 0.8em; /* Slightly smaller text size */
+}
+
+/* Style for the restart button inside the Weather component */
+.restart-button {
+  background-color: #ff4d4d; /* Red background color */
+  border: none; /* Remove default border */
+  border-radius: 6px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+  color: white; /* White text color */
+  font-size: 0.5em; /* Smaller text size */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 20px; /* Space above the button */
+}
+
+/* Hover state for the restart button inside the Weather component */
+.restart-button:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
