@@ -2,7 +2,7 @@
 ## Project Overview
 The Weather Application is a dynamic web page designed to display the current weather for a specified location. Utilising a weather API, this application fetches and displays real-time weather data. Users can view the current weather conditions for any location in the world of their choice. The application also presents a real-time clock that updates every second to ensure users have been provided with the most accurate and up-to-date information. 
 ## Features
-+ Current Weather Display: Shows the weather conditions for Paris or a user-specified location.
++ Current Weather Display: Shows the weather conditions for any location in the world.
 + Real-Time Clock: Continuously updates to show the current time, updated every second.
 + Dynamic Weather Data: Fetches data from the Open-Meteo API, including temperature, weather conditions, and more.
 + User Location Input: Allows users to enter any location to fetch the corresponding weather data.
